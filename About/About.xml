@@ -16,10 +16,6 @@
 			<packageId>kentington.saveourship2</packageId>
 			<displayName>Save Our Ship 2</displayName>
 		</li>
-		<li>
-			<packageId>lts.I</packageId>
-			<displayName>Integrated Implants</displayName>
-		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>bambaryla.bor</li>
