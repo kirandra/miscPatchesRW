@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Tier 1 (solar) -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_SolarBionicLung"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<HypoxiaResistance>1</HypoxiaResistance>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_SolarBionicLiver"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<ToxicResistance>0.5</ToxicResistance>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_SolarBionicKidney"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+						<ToxicResistance>0.25</ToxicResistance>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_SolarBionicHeart"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<totalBleedFactor>0.4</totalBleedFactor>
+					<naturalHealingFactor>2.5</naturalHealingFactor>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_SolarBionicStomach"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<hungerRateFactor>0.5</hungerRateFactor>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_SolarBionicSpine"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<capMods>
+						<li>
+							<capacity>Manipulation</capacity>
+							<offset>0.4</offset>
+						</li>
+					</capMods>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_SolarBionicJaw"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<PawnBeauty>1</PawnBeauty>
+						<NegotiationAbility>0.4</NegotiationAbility>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="BOR_SolarBionicStomach"]/stages/li/foodPoisoningChanceFactor</xpath>
+		<value>
+			<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+		</value>
+	</Operation>
+	<!-- Tier 2 (quasar) -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_QuasarBionicLung"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<HypoxiaResistance>1</HypoxiaResistance>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_QuasarBionicLiver"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<ToxicResistance>0.5</ToxicResistance>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_QuasarBionicKidney"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<ImmunityGainSpeed>0.12</ImmunityGainSpeed>
+						<ToxicResistance>0.25</ToxicResistance>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_QuasarBionicHeart"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<totalBleedFactor>0.3</totalBleedFactor>
+					<naturalHealingFactor>3</naturalHealingFactor>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_QuasarBionicStomach"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<hungerRateFactor>0.4</hungerRateFactor>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_QuasarBionicSpine"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<capMods>
+						<li>
+							<capacity>Manipulation</capacity>
+							<offset>0.5</offset>
+						</li>
+					</capMods>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_QuasarBionicJaw"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<PawnBeauty>1</PawnBeauty>
+						<NegotiationAbility>0.6</NegotiationAbility>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="BOR_QuasarBionicStomach"]/stages/li/foodPoisoningChanceFactor</xpath>
+		<value>
+			<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+		</value>
+	</Operation>
+	<!-- Tier 3 (tenebral) -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_TenebralBionicLung"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<HypoxiaResistance>1</HypoxiaResistance>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_TenebralBionicLiver"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<ToxicResistance>0.5</ToxicResistance>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_TenebralBionicKidney"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<ImmunityGainSpeed>0.15</ImmunityGainSpeed>
+						<ToxicResistance>0.25</ToxicResistance>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_TenebralBionicHeart"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<totalBleedFactor>0.2</totalBleedFactor>
+					<naturalHealingFactor>4</naturalHealingFactor>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_TenebralBionicStomach"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<hungerRateFactor>0.3</hungerRateFactor>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_TenebralBionicSpine"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<capMods>
+						<li>
+							<capacity>Manipulation</capacity>
+							<offset>0.75</offset>
+						</li>
+					</capMods>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_TenebralBionicJaw"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<PawnBeauty>1</PawnBeauty>
+						<NegotiationAbility>0.8</NegotiationAbility>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="BOR_TenebralBionicStomach"]/stages/li/foodPoisoningChanceFactor</xpath>
+		<value>
+			<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+		</value>
+	</Operation>
+	<!-- Tier 4 (umbral) -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_UmbralBionicLung"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<HypoxiaResistance>1</HypoxiaResistance>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_UmbralBionicLiver"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<ToxicResistance>0.5</ToxicResistance>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_UmbralBionicKidney"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+						<ToxicResistance>0.25</ToxicResistance>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_UmbralBionicHeart"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<totalBleedFactor>0.1</totalBleedFactor>
+					<naturalHealingFactor>5</naturalHealingFactor>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_UmbralBionicStomach"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<hungerRateFactor>0.1</hungerRateFactor>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_UmbralBionicSpine"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<capMods>
+						<li>
+							<capacity>Manipulation</capacity>
+							<offset>1</offset>
+						</li>
+					</capMods>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/HediffDef[defName="BOR_UmbralBionicJaw"]</xpath>
+		<value>
+			<stages>
+				<li>
+					<statOffsets>
+						<PawnBeauty>1</PawnBeauty>
+						<NegotiationAbility>1</NegotiationAbility>
+					</statOffsets>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName="BOR_UmbralBionicStomach"]/stages/li/foodPoisoningChanceFactor</xpath>
+		<value>
+			<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+		</value>
+	</Operation>
+</Patch>
+

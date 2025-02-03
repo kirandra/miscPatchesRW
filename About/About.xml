@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>kira's patches</name>
+	<packageId>kirandra.patchstuff</packageId>
+	<author>kirandra</author>
+	<description>Personal patches.\n\n- Adds hypoxia resistance to BOR bionics and rebalances them with additional hediffs based on SOS2 archotech parts.\n- Adds Integrated Implants slots to BOR bionics.</description>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>bambaryla.bor</packageId>
+			<displayName>Beyond Our Reach</displayName>
+		</li>
+		<li>
+			<packageId>kentington.saveourship2</packageId>
+			<displayName>Save Our Ship 2</displayName>
+		</li>
+		<li>
+			<packageId>lts.I</packageId>
+			<displayName>Integrated Implants</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>bambaryla.bor</li>
+		<li>kentington.saveourship2</li>
+		<li>lts.I</li>
+	</loadAfter>
+</ModMetaData>
